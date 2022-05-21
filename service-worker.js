@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a4920e6452b827043e3f430d4116f282.js"
+  "/todopwa/precache-manifest.f280e5e957a265a36b72b888134d9960.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "todo-pwa-limoonad"});
