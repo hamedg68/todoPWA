@@ -4,12 +4,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/todopwa/css/chunk-vendors.9e40fd9d.css"
   },
   {
-    "revision": "47766ccf408acb526cae5d415d494cc2",
+    "revision": "f1dc8cffd4a2b0a2bc42b45ab2e721c4",
     "url": "/todopwa/index.html"
   },
   {
-    "revision": "0b3fa63cc26e0a826842",
-    "url": "/todopwa/js/app.dd2e69d0.js"
+    "revision": "327609dcf8b27380e09a",
+    "url": "/todopwa/js/app.3744d3e2.js"
   },
   {
     "revision": "411bb9ce87c49f3f6372",
