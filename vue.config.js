@@ -2,7 +2,9 @@ module.exports = {
     transpileDependencies: [
         'vuetify'
     ],
-    base: "/todopwa/",
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/todopwa/'
+    : '/',
     pwa: {
         name : 'gggg',
         themeColor: '#0e67ff',

@@ -188,17 +188,17 @@ export default {
       }
     }
   },
-  mounted() {
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault()
-      this.differedPrompt = e
-      if (this.isMobileCheck) {
-        this.installDialog = true
-      }
-    })
-    if (localStorage.getItem('todos')) {
-      this.items = JSON.parse(localStorage.getItem('todos'))
-    }
-  }
+  // mounted() {
+  //   window.addEventListener('beforeinstallprompt', (e) => {
+  //     e.preventDefault()
+  //     this.differedPrompt = e
+  //     if (this.isMobileCheck) {
+  //       this.installDialog = true
+  //     }
+  //   })
+  //   if (localStorage.getItem('todos')) {
+  //     this.items = JSON.parse(localStorage.getItem('todos'))
+  //   }
+  // }
 }
 </script>
